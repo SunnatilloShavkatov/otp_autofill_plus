@@ -1,5 +1,9 @@
 ## 1.0.2
 
+* ios bug fixes
+
+## 1.0.2
+
 * readme updated
 
 ## 1.0.1

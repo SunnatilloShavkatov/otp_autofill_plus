@@ -1,5 +1,5 @@
 name: otp_autofill_plus
-version: 1.0.2
+version: 1.0.3
 description: Android implementation of OTP autofill with using User Consent API and Retriever API. Add possibility to receive OTP code from another input.
 repository: "https://github.com/SunnatilloShavkatov/otp_autofill"
 issue_tracker: "https://github.com/SunnatilloShavkatov/otp_autofill/issues"
