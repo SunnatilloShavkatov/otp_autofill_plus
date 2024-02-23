@@ -1,15 +1,6 @@
-# OTP autofill
+# OTP autofill plus
 
-[![Build Status](https://shields.io/github/actions/workflow/status/surfstudio/flutter-otp-autofill/main.yml?logo=github&logoColor=white)](https://github.com/surfstudio/flutter-otp-autofill)
-[![Coverage Status](https://img.shields.io/codecov/c/github/surfstudio/flutter-otp-autofill?logo=codecov&logoColor=white)](https://app.codecov.io/gh/surfstudio/flutter-otp-autofill)
-[![Pub Version](https://img.shields.io/pub/v/otp_autofill?logo=dart&logoColor=white)](https://pub.dev/packages/otp_autofill)
-[![Pub Likes](https://badgen.net/pub/likes/otp_autofill)](https://pub.dev/packages/otp_autofill)
-[![Pub popularity](https://badgen.net/pub/popularity/otp_autofill)](https://pub.dev/packages/otp_autofill/score)
-![Flutter Platform](https://badgen.net/pub/flutter-platform/otp_autofill)
-
-This package is part of the [SurfGear](https://github.com/surfstudio/SurfGear) toolkit made by [Surf](https://surf.ru).
-
-[![OTP autofill](https://i.ibb.co/dG8zd7c/OTP-autofill.png)](https://github.com/surfstudio/SurfGear)
+This package is part of the [otp_autofill_plus](https://github.com/SunnatilloShavkatov/otp_autofill_plus/tree/master) toolkit made by [SunnatilloShakatov](https://github.com/SunnatilloShavkatov).
 
 ## Description
 
@@ -74,25 +65,25 @@ For easy implementation you could use `OTPTextEditController` as a controller to
 
 ## Installation
 
-Add `otp_autofill` to your `pubspec.yaml` file:
+Add `otp_autofill_plus` to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  otp_autofill: $currentVersion$
+  otp_autofill_plus: $currentVersion$
 ```
 
-<p>At this moment, the current version of <code>otp_autofill</code> is <a href="https://pub.dev/packages/otp_autofill"><img style="vertical-align:middle;" src="https://img.shields.io/pub/v/otp_autofill.svg" alt="otp_autofill version"></a>.</p>
+<p>At this moment, the current version of <code>otp_autofill_plus</code>
 
 ### Android Installation
 
-Set `minSdkVersion` at least to 19 in `<project root>/project/android/app/build.gradle`.
+Set `minSdkVersion` at least to 21 in `<project root>/project/android/app/build.gradle`.
 
 ``` gradle
 android {
   ...
   defaultConfig {
     ...
-    minSdkVersion 19
+    minSdkVersion 21
     ...
   }
   ...
@@ -180,19 +171,13 @@ All notable changes to this project will be documented in [this file](./CHANGELO
 
 ## Issues
 
-To report your issues, submit them directly in the [Issues](https://github.com/surfstudio/flutter-otp-autofill/issues) section.
+To report your issues, submit them directly in the [Issues](https://github.com/SunnatilloShavkatov/otp_autofill_plus/issues) section.
 
 ## Contribute
 
 If you would like to contribute to the package (e.g. by improving the documentation, fixing a bug or adding a cool new feature), please read our [contribution guide](./CONTRIBUTING.md) first and send us your pull request.
 
 Your PRs are always welcome.
-
-## How to reach us
-
-Please feel free to ask any questions about this package. Join our community chat on Telegram. We speak English and Russian.
-
-[![Telegram](https://img.shields.io/badge/chat-on%20Telegram-blue.svg)](https://t.me/SurfGear)
 
 ## License
 
