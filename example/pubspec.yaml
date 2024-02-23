@@ -1,0 +1,20 @@
+name: otp_autofill_example
+description: Demonstrates how to use the otp_autofill plugin.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  otp_autofill_plus:
+    path: ../
+
+dev_dependencies:
+  surf_lint_rules: ^3.0.0
+
+flutter:
+  uses-material-design: true

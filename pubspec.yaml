@@ -1,0 +1,28 @@
+name: otp_autofill_plus
+version: 1.0.0
+description: Android implementation of OTP autofill with using User Consent API and Retriever API. Add possibility to receive OTP code from another input.
+repository: "https://github.com/SunnatilloShavkatov/otp_autofill"
+issue_tracker: "https://github.com/SunnatilloShavkatov/otp_autofill/issues"
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.16.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.3
+  surf_lint_rules: ^3.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: uz.shs.otp_autofill_plus
+        pluginClass: OTPPlugin
+      ios:
+        pluginClass: OTPPlugin
