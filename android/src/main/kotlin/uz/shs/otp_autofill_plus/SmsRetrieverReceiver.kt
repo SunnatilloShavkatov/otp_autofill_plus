@@ -7,6 +7,7 @@ import com.google.android.gms.auth.api.phone.SmsRetriever
 import com.google.android.gms.common.api.CommonStatusCodes
 import com.google.android.gms.common.api.Status
 
+@Suppress("DEPRECATION")
 class SmsRetrieverReceiver : BroadcastReceiver() {
 
     lateinit var smsBroadcastReceiverListener: SmsRetrieverBroadcastReceiverListener

@@ -19,7 +19,6 @@ import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 import io.flutter.plugin.common.PluginRegistry
-import io.flutter.plugin.common.PluginRegistry.Registrar
 
 /// Channel
 const val channelName: String = "otp_surfstudio"
@@ -55,13 +54,14 @@ class OTPPlugin : FlutterPlugin, MethodCallHandler, PluginRegistry.ActivityResul
         channel.setMethodCallHandler(this)
     }
 
+    @Suppress("DEPRECATION")
     companion object {
         @SuppressLint("StaticFieldLeak")
         private var context: Context? = null
         private var lastResult: Result? = null
 
         @JvmStatic
-        fun registerWith(registrar: Registrar) {
+        fun registerWith(registrar: PluginRegistry.Registrar) {
             context = registrar.context()
             val channel = MethodChannel(registrar.messenger(), channelName)
             val plugin = OTPPlugin()

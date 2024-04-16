@@ -12,6 +12,7 @@ private const val HASH_TYPE = "SHA-256"
 private const val NUM_HASHED_BYTES = 9
 private const val NUM_BASE64_CHAR = 11
 
+@Suppress("DEPRECATION")
 class AppSignatureHelper(context: Context) : ContextWrapper(context) {
 
     fun getAppSignatures(): List<String> {
@@ -42,5 +43,4 @@ class AppSignatureHelper(context: Context) : ContextWrapper(context) {
             null
         }
     }
-
 }
