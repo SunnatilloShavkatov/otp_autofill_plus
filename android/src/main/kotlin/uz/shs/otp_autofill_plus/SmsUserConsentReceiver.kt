@@ -10,7 +10,7 @@ import com.google.android.gms.common.api.Status
 @Suppress("DEPRECATION")
 class SmsUserConsentReceiver : BroadcastReceiver() {
 
-    private lateinit var smsBroadcastReceiverListener: SmsUserConsentBroadcastReceiverListener
+    lateinit var smsBroadcastReceiverListener: SmsUserConsentBroadcastReceiverListener
 
     override fun onReceive(context: Context?, intent: Intent?) {
 

@@ -1,3 +1,7 @@
+## 1.0.5
+
+* android bug fixes
+
 ## 1.0.4
 
 * android bug fixes
